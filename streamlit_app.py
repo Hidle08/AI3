@@ -74,11 +74,11 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
-    # labels[0]: {
+     labels[0]: {
        "texts": ["에스파", "트와이스", "아이즈원 LET's go"],
        "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fnamu.wiki%2Fw%2Faespa&psig=AOvVaw3uXXIDMKtX84UCoF0Bs73B&ust=1762496577929000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDUhsHx3JADFQAAAAAdAAAAABAE"],
        "videos": ["https://www.youtube.com/shorts/yKDv3vS8tAk"]
-    # },
+     },
 }
 
 # ======================
