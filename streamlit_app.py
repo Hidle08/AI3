@@ -67,18 +67,35 @@ st.markdown("---")
 # 라벨 이름 매핑: 여기를 채우세요!
 # 각 라벨당 최대 3개씩 표시됩니다.
 # ======================
-CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
-    # 예)
-    # "짬뽕": {
-    #   "texts": ["에스파", "트와이스","아이즈원 LET's go"],
-    #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
-    #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
-    # },
+CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {  
      labels[0]: {
-       "texts": ["에스파", "트와이스", "아이즈원 LET's go"],
-       "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fnamu.wiki%2Fw%2Faespa&psig=AOvVaw3uXXIDMKtX84UCoF0Bs73B&ust=1762496577929000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDUhsHx3JADFQAAAAAdAAAAABAE"],
-       "videos": ["https://www.youtube.com/shorts/yKDv3vS8tAk"]
+       "texts": ["Day6는", "6일", "입니다"],
+       "images": ["https://i.ytimg.com/vi/9zGuL4DjmAU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD1Ds2fIV7qtWzPGQCCkwIZDwIRPg"],
+       "videos": ["https://www.youtube.com/watch?v=XrRhx2FMAMA"]
      },
+    labels[1]: {
+       "texts": ["EXO는", "첫눈", "입니다"],
+       "images": ["https://img.imageimg.net/artist/exo/img/profile.jpg"],
+       "videos": ["https://www.youtube.com/watch?v=mHe3amVvtVo&list=RDmHe3amVvtVo&start_radio=1"]
+     },
+    labels[2]: {
+       "texts": ["아이즈원은", "아이들이", "하나입니다"],
+       "images": ["https://i.namu.wiki/i/C_4DoVT8TXuBiXZpcNmKzKFqFF73WL-CvC8CVpdIdUn7nSR8vMoH00R5d8jXqI0-jzRndgFkwXxE83T3jI7ibQ.webp"],
+       "videos": ["https://www.youtube.com/watch?v=-6zExiuIotU&list=RD-6zExiuIotU&start_radio=1"]
+     },
+    labels[3]: {
+       "texts": ["트와이스는", "두번의", "들입니다"],
+       "images": ["https://img1.yna.co.kr/photo/yna/YH/2020/02/25/PYH2020022505820000500_P4.jpg"],
+       "videos": ["https://www.youtube.com/watch?v=Sz_wWzgh-vQ&list=RDSz_wWzgh-vQ&start_radio=1"]
+     },
+labels[4]: {
+       "texts": ["프로미스나인은", "프로인데", "실수가 아홉번입니다"],
+       "images": ["https://www.news-wa.com//img/upload/2024/09/02/NWC_20240902192257_4x3.jpg"],
+       "videos": ["https://www.youtube.com/watch?v=Xd3YPbRHYKw"]
+     },
+
+}
+
 }
 
 # ======================
